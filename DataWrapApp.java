@@ -6,7 +6,6 @@ public class DataWrapApp {
 		System.out.println(DataWrapper.wrapSquare("array"));
 		System.out.println(DataWrapper.wrapAngle("tag"));
 		System.out.println(DataWrapper.wrapRound(0.5));
-
 	}
 }	
 
@@ -55,7 +54,5 @@ class DataWrapper {
 	static String wrapAngle (char numberChar) {
 		return "<"+numberChar+">";
 	}
-	
-	
 	
 }
